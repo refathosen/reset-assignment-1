@@ -1,0 +1,112 @@
+/* font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shared styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: "Azeret Mono", monospace;
+}
+
+/* header section styles */
+
+
+/* navbar styles */
+.introduction-container{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 36px 150px;
+    background: #FFF;
+}
+
+.introduction-container h3{
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.introduction-container .resume-btn{
+    display: inline-block;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    padding: 17px 24px;
+    background: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.introduction-container .resume-btn:hover{
+    background-color: #0D1321;
+    color: #FFF;
+    transform: scale(1.03); 
+}
+
+/* banner styles */
+
+.banner-container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto 74px;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 26px 221px 45px;
+    background: url('../assets/images/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container .banner-img{
+    margin-bottom: 32px;
+}
+
+.banner-container h1{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+.banner-container p{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.banner-container .banner-contact-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #0D1321;
+    padding: 21px 24px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.banner-container .banner-contact-btn:hover{
+    color: #0D1321;
+    background-color: #FFF;
+    border: 1px solid #0D1321;
+    transform: scale(1.02);
+}
