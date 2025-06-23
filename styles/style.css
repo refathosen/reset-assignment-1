@@ -385,3 +385,27 @@ body{
     background: #0b2f4a;
     color: #FFF;
 }
+
+/* footer styles */
+
+footer{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+    background: #0D132108;
+}
+
+.footer-text-container h4{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icon-container{
+    display: flex;
+    gap: 24px;
+}
