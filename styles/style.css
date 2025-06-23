@@ -131,6 +131,7 @@ body{
 
 .why-web-development-text-container{
     margin-bottom: 48px;
+    max-width: 852px;
 }
 
 .why-web-development-text-container h3{
@@ -197,3 +198,158 @@ body{
 
 /* my inspiration section styles */
 
+.my-inspiration-container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto 151px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-inspiration-text-container{
+    max-width: 852px;
+    margin-bottom: 48px;
+}
+
+.my-inspiration-text-container h3{
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+
+.my-inspiration-text-container p{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+.my-inspiration-video-container{
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    padding: 32px;
+}
+
+.my-inspiration-iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+
+/* my-current-target styles */
+
+.my-current-target-container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.my-current-target-text-container{
+    max-width: 852px;
+    margin-bottom: 48px;
+}
+
+.my-current-target-text-container h3{
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+.my-current-target-text-container p{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.7;
+}
+
+.my-current-target-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.my-current-target-cards{
+    text-align: left;
+    padding: 40px;
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}
+
+.my-current-target-cards h3{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 8px;
+}
+
+.my-current-target-cards p{
+    color: #0D1321;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#target-card-1{
+    background: #FF4C1E0D;
+}
+
+#target-card-2{
+    background: #004CE80D;
+}
+
+#target-card-3{
+    background: #FFDF000D;
+}
+
+.target-learn-more-btn{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+}
+
+.need-support-container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto 80px;
+    padding: 64px 48px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../assets/images/handshake.jpg') lightgray 50% / cover no-repeat;
+}
+
+.need-support-text-container{
+    width: 730px;
+    margin-bottom: 24px;
+}
+
+.need-support-text-container h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.need-support-text-container p{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-weight: 400;
+}
